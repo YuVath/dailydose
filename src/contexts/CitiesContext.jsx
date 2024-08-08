@@ -63,7 +63,7 @@ function useCities() {
 }
 
 CitiesProvider.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
 };
 
 export { CitiesProvider, useCities };
